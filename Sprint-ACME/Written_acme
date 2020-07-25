@@ -1,0 +1,19 @@
+- What, in your opinion, is an important part of code reviews? That is, what is
+  something you pay attention to when you review code, and that you appreciate
+  when others do the same for your code?
+
+# I think it is important to look at the organization and structure of the code. If it is in the wrong order or confusing 
+# order then it may not run properly. Another reason is that you don't want someone to be confused or not understand your
+# code if they are supposed to check or help you with it so having it in a way others can understand is useful. Of course
+# having it organized so the code can run smoothly is the goal in order to do your work efficiently as to not use all of your
+# time having to go back and fix it. That could end up using most of your day which isn't helpful when you have a bunch to do.
+
+- We have an awful lot of computers here, and it gets pretty confusing with
+  slightly different things running on all of them. How could containers help us
+  improve this situation?
+
+# Containers help us to be able to find what we need quickly so we can be efficient and keep to deadlines. When we use containers
+# it helps put one subject or type of code together so we don't lose a piece. I like to think of containers kind of like a 
+# filing system. It makes the most sense to put the related items together so it's all in one place. When your material is all
+# in one place it can help to find what you are looking for if you know what area to start looking. If you make the starting 
+# circumference smaller, then finding the material will take less time which means you can get more work done. 

@@ -37,6 +37,19 @@ class My_Data_Splitter():
             X_train_val, y_train_val, test_size=val_size / (train_size + val_size),
             random_state=random_state, shuffle=shuffle)
         return X_train, X_val, X_test, y_train, y_val, y_test
+
+        def date_divider(df,date_col):
+            '''
+                Param df: dataframe object from the Pandas library, entire dataframe where the date_column is located is required
+                Param date_col: String value of the name of the date_column to be looked up in the passed dataframe
+                Return: modified dataframe with the new Year, Month, and Day columns attached to the end.
+            '''
+            converted_df = df.copy()
+            converted_df["Year"] = pd.DatetimeIndex(converted_df[date_col]).year
+            converted_df["Month"] = pd.DatetimeIndex(converted_df[date_col]).month
+            converted_df["Day"] = pd.DatetimeIndex(converted_df[date_col]).day
+            return converted_df
+
     def print_split_summary(self, X_train, X_val, X_test):
         print('######################## TRAINING DATA ########################')
         print(f'X_train Shape: {X_train.shape}')

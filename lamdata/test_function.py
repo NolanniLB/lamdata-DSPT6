@@ -6,3 +6,6 @@ def myfunc(X):
   z = y.to_frame(name='missing')
   z['dtypes'] = X.dtypes
   return z
+
+def enlarge(n):
+  return n * 10
